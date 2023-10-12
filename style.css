@@ -1,0 +1,233 @@
+/* header part */
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo{
+    width: 120px;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+.headerclass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    margin-right: 60px;
+display: flex;
+list-style-type: none;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Roboto+Condensed&display=swap');
+.links:hover{
+    color: blue;
+}
+#HOME{
+    margin-top: 100px;
+}
+.title{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+.title-h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.second-name{
+    color: orange;
+}
+.download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s; left 1s;
+}
+.images:hover #girl{
+    left: 40%;
+}
+.images:hover #shape{
+bottom: 70px;
+}
+#about{
+    margin-top: 200px;
+}
+.heading{
+    text-align: center;
+}
+.heading span{
+    color: green;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    margin-bottom: 10px;
+}
+.info-box span{
+    margin-left: 5px;
+}
+.about-details{
+    text-align: justify;
+    font-size: 18px;
+}
+.about-img img{
+    width: 70%;
+}
+#skills{
+    margin-top: 80px;
+}
+.skills1{
+    text-align: center;
+}
+.skills1 span{
+    color: green;
+}
+.html1{
+    background-color: black;
+    height: 10px;
+    width: 500px;
+    border-radius: 20px;
+}
+.html2{
+    background-color: yellow;
+    height: 10px;
+    width: 470px;
+    border-radius: 20px;
+    margin-top: -10px;
+
+}
+.html{
+    text-align: left;
+}
+.html span{
+    margin-left: 35%;
+}
+.css{
+    text-align: left;
+}
+.css span{
+    margin-left: 36%;
+}
+.css1{
+    background-color: black;
+    height: 10px;
+    width: 500px;
+    border-radius: 20px;
+}
+.css2{
+    background-color: yellow;
+    height: 10px;
+    width: 450px;
+    border-radius: 20px;
+    margin-top: -10px;
+
+}
+.js{
+    text-align: left;
+}
+.js span{
+    margin-left: 38%;
+}
+.js1{
+    background-color: black;
+    height: 10px;
+    width: 500px;
+    border-radius: 20px;
+}
+.js2{
+    background-color: yellow;
+    height: 10px;
+    width: 455px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.react{
+    text-align: left;
+}
+.react span{
+margin-left: 35%;
+}
+.react1{
+    background-color: black;
+    height: 10px;
+    width: 500px;
+    border-radius: 20px;
+}
+.react2{
+    background-color: yellow;
+    height: 10px;
+    width: 425px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.img-4{
+   margin-left: 550px;
+   margin-top: -250px;
+}
+#contact{
+    text-align: center;
+}
+.contact1 span{
+color: green;
+}
+.last-part{
+    margin-top: 50px;
+}
+.last-part i{
+    margin-left: 20px;
+}
+.last-part i:hover{
+    color: red;
+    background-image: linear-gradient(to bottom right,red orange);
+    animation: shake 1s;
+}
+@keyframes shake{
+    50%{
+        transform: rotate(15deg);
+    }
+}
+#topbutton{
+ width: 45px;
+ height: 45px;
+ margin-left: 95%;
+ border-radius: 50%;
+ background-image: linear-gradient(orange,red);
+ border-style: none;
+ margin-top: 5%;
+}
+.copy h3{
+    font-style: oblique;
+    font-size: small;
+    margin-top: 4%;
+}
